@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 2em;
+    color: aqua;
+    cursor: pointer;
+}
+.navigation{
+    color: aliceblue;
+}
+.navigation a{
+    color-scheme:white;
+    font-size: 1em;
+    margin-right: 19px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover{
+    color: aqua;
+
+}
+.logo span{
+    color: rgb(7, 42, 42);
+}
+.home{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center ;
+    padding: 30px 100px;
+
+
+
+}
+.content{
+    max-width:500px;
+    color:skyblue;
+}
+.content h1{
+    font-size: 3em;
+}
+.content h3{
+    font-size: 2.4em;
+}
+.content h3 span{
+    color: aquamarine;
+}
+.content h5{
+    font-size: 1.9em;
+}
+.content p{
+    text-align:justify;
+}
+.imgsection img{
+    
+    border-radius:50%;
+    width:550px;
+}
+
+    
+    
