@@ -45,12 +45,12 @@ header {
     position: relative;
     width: 100%;
     height:100vh;
+    display:flex;
     background-color: #fff;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items:center ;
-    padding: 30px 100px;
+    align-items:center ;    
+    justify-content: space-between;
+    padding:90px ;
+    margin-bottom:10px;
 
 
 
@@ -79,6 +79,71 @@ header {
     border-radius:50%;
     width:550px;
 }
+.about {
+    width: 100%; 
+    margin: 40px 0; 
+    padding: 0 20px; 
+}
+
+.about .content {
+    max-width: 100%; 
+    text-align: justify; /
+}
+
+.about p {
+    width: 100%; 
+    margin: 0 auto; 
+    font-weight: 1000;
+    text-align: center;
+
+
+}
+
+
+.me{
+    text-align: center;
+    
+}
+.f{
+  
+    white-space: nowrap;
+    text-align: center;
+    font-size: 2.4em;
+}
+.education{
+    text-align: center;
+}
+.edubar{
+    background-color: #d8bfd5;
+   
+    
+   
+}
+
+
+.fi{
+    margin-bottom:1rem ;
+    display:flex;
+    background-color:#0f018b;
+    width:fit-content;
+    margin-top: 3px;
+    margin-left:-6px;
+
+}
+.se{
+    margin-top:2rem;
+    font-weight:600;
+    margin-left:-79rem;
+    color: #fff;
+}
+.th{
+    font-size: small;
+    font-weight:600;
+    margin-left:-79rem;
+   
+}
+    
+
 
     
     
